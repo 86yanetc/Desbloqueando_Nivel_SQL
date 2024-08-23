@@ -1,4 +1,4 @@
-drop table employee;
+DROP TABLE IF EXISTS employee;
 create table employee
 ( emp_ID int
 , emp_NAME varchar(50)
