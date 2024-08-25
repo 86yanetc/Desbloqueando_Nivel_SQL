@@ -1,4 +1,4 @@
-DROP TABLE src_dest_distance;
+DROP TABLE IF EXISTS src_dest_distance;
 CREATE TABLE src_dest_distance
 (
     source          varchar(20),
