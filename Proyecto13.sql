@@ -3056,19 +3056,3 @@ insert into sales_order values (DEFAULT,'43','100','5417.57',to_date('03/01/2005
 insert into sales_order values (DEFAULT,'34','62.24','2116.16',to_date('3/28/2005','mm/dd/yyyy'),'Shipped','1','3','2005','S72_3212','C52','Small');
 insert into sales_order values (DEFAULT,'47','65.52','3079.44',to_date('05/06/2005','mm/dd/yyyy'),'On Hold','2','5','2005','S72_3212','C59','Medium');
 
-------------------------------------cust_order----------------------------------------------
-DROP TABLE IF EXISTS cust_orders;
-create table cust_orders
-(
-cust_name   varchar(50),
-order_id    varchar(10),
-status      varchar(50)
-);
-
-insert into cust_orders values ('John', 'J1', 'DELIVERED');
-insert into cust_orders values ('John', 'J2', 'DELIVERED');
-insert into cust_orders values ('David', 'D1', 'SUBMITTED');
-insert into cust_orders values ('David', 'D2', 'DELIVERED'); -- This record is missing in question
-insert into cust_orders values ('David', 'D3', 'CREATED');
-insert into cust_orders values ('Smith', 'S1', 'SUBMITTED');
-insert into cust_orders values ('Krish', 'K1', 'CREATED');
