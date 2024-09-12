@@ -1,3 +1,21 @@
+  CREATE Table productsales
+  (   productname varchar(50),
+      year int,
+      sales int
+  );
+  Insert into productsales values
+      ('A',2017,100),
+      ('A',2018,150),
+      ('A',2019,300),
+      ('A',2020,500),
+      ('B',2017,0),
+      ('B',2018,900),
+      ('B',2019,1120),
+      ('B',2020,750),
+      ('C',2017,300),
+      ('C',2018,6700),
+      ('C',2019,4120),
+      ('C',2020,1750);   
 
 CREATE TABLE products 
 (
