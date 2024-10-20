@@ -1,3 +1,15 @@
+drop table if exists employees;
+create table employees
+(
+	id			int,
+	name		varchar(50)
+);
+insert into employees values(1, 'Lewis');
+insert into employees values(2, 'Max');
+insert into employees values(3, 'Charles');
+insert into employees values(4, 'Sainz');
+
+
 drop table if exists events;
 create table events
 (
@@ -16,4 +28,5 @@ insert into events values('Training', 3, to_date('04-03-2024','DD-MM-YYYY'));
 insert into events values('Training', 2, to_date('04-03-2024','DD-MM-YYYY'));
 insert into events values('Training', 4, to_date('04-03-2024','DD-MM-YYYY'));
 insert into events values('Training', 4, to_date('05-03-2024','DD-MM-YYYY'));
+
 
