@@ -1,7 +1,7 @@
 drop table if exists employees;
 create table employees
 (
-	id			int,
+	id		int,
 	name		varchar(50)
 );
 insert into employees values(1, 'Lewis');
