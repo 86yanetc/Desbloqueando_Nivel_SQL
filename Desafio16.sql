@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS covid_cases;
 create TABLE covid_cases
 (
 	cases_reported	int,
-	dates			date	
+	dates	date	
 );
 
 INSERT INTO covid_cases VALUES(20124,to_date('10/01/2020','DD/MM/YYYY'));
